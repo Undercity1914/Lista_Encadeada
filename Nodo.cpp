@@ -8,7 +8,7 @@ Nodo::Nodo()
 Nodo::Nodo(Pessoa item)
 {
     this->item = item;
-    this->next = next;
+    this->next = NULL;
 }
 
 Pessoa Nodo::getItem()
